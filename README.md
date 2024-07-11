@@ -38,7 +38,7 @@ module.exports = {
 ## 为 Monorepo 添加 Arco 物料
 
 ```
-yarn add:package -- yourPackageDirectoryName
+npm add:package -- yourPackageDirectoryName
 
 包名规范：
 ```
@@ -47,10 +47,10 @@ yarn add:package -- yourPackageDirectoryName
 
 ```
 // 开发模式
-yarn dev
+npm start
 
 // 构建所有包
-yarn build
+npm build
 
 // 构建单个包
 lerna run build --stream --scope packageName
