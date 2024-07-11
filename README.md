@@ -39,6 +39,8 @@ module.exports = {
 
 ```
 yarn add:package -- yourPackageDirectoryName
+
+包名规范：
 ```
 
 ## 快速开始

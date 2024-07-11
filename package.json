@@ -1,10 +1,13 @@
 {
-  "name": "root",
+  "name": "arco-pro-components",
   "private": true,
+  "version": "0.0.0",
+  "repository": "git@github.com:rhythm1995/arco-pro-components.git",
   "workspaces": [
     "packages/*"
   ],
   "scripts": {
+    "start": "start-storybook -p 6006",
     "dev": "start-storybook -p 6006",
     "build": "lerna run build --stream",
     "test": "lerna run test --stream",
