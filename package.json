@@ -1,7 +1,7 @@
 {
   "name": "@arco-pro-components/arco-pro-components",
   "private": false,
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": "git@github.com:rhythm1995/arco-pro-components.git",
   "workspaces": [
     "packages/*"
