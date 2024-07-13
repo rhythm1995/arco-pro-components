@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { mount } from 'enzyme';
 import mountTest from '../../../../tests/mountTest';
-import SidebarDemo from '../index';
+import ProTable from '../index';
 
-mountTest(SidebarDemo);
+mountTest(ProTable);
 
-describe('SidebarDemo', () => {
-  it('render SidebarDemo correctly', () => {
-    const component = mount(<SidebarDemo />);
+describe('ProTable', () => {
+  it('render ProTable correctly', () => {
+    const component = mount(<ProTable />);
     expect(component).toBeTruthy();
   });
 });
