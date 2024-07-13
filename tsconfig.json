@@ -7,11 +7,20 @@
     "experimentalDecorators": true,
     "allowSyntheticDefaultImports": true,
     "moduleResolution": "node",
+    "noImplicitReturns": true,
     "jsx": "react",
     "module": "es6",
     "target": "es5",
     "lib": ["es5", "dom"],
-    "types": ["node", "jest"]
+    "types": ["node", "jest"],
+    "baseUrl": "./",
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "paths": {
+      "@/*": ["./*"],
+      "@utils": ["./packages/pro-utils"],
+      "pro-table": ["./packages/ProTable/src/index.tsx"],
+    }
   },
   "include": ["packages/**/*.ts", "packages/**/*.tsx"],
   "exclude": ["node_modules"]

@@ -1,0 +1,19 @@
+{
+  "name": "@arco-pro-components/pro-utils",
+  "version": "1.0.0",
+  "description": "@arco-pro-components/pro-utils",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rhythm1995/arco-pro-components.git"
+  },
+  "author": "bugzhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rhythm1995/arco-pro-components/issues"
+  },
+  "homepage": "https://github.com/rhythm1995/arco-pro-components#readme"
+}

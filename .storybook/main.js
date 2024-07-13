@@ -26,7 +26,9 @@ function getLoaderForStyle(isCssModule) {
 }
 
 module.exports = {
-  stories: ['../packages/**/stories/*.@(js|jsx|ts|tsx)'],
+  stories: [
+    '../packages/**/stories/*.@(js|jsx|ts|tsx|mdx|md)',
+  ],
   webpackFinal: (config) => {
     // 为 storybook 添加 packages 中项目的 alias
     packagePaths.forEach((_path) => {
